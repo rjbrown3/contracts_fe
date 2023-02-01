@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div style={{ marginTop: "50px" }}>
       <div className="text-center">
-        <h1 style={{ marginTop: "80px", marginBottom: "50px", color: "#607d8b" }}>What Contractscan.io does for you</h1>
+        <h1 style={{ marginTop: "65px", marginBottom: "50px", color: "#607d8b" }}>What Contractscan.io does for you</h1>
         <div>
           <p><IoIosFingerPrint className="textColor" /> Quickly extracts key information from any type of legal document</p>
           {/* <h4><IoIosClipboard style={{ height: "40px" }} /></h4> */}
@@ -23,9 +23,9 @@ const Home = () => {
           <p><IoIosFingerPrint className="textColor" /> Gives you the confidence in understanding a document before you sign</p>
         </div>
         <br />
-        <a href="/GenerateSummary">
+        <Link to="/GenerateSummary">
           <Button color='#abd4ff' text='Get started' />
-        </a> 
+        </Link> 
       </div>
     </div>
   );
