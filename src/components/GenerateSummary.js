@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {IoIosFingerPrint} from "react-icons/io";
+import {IoIosFingerPrint, IoIosArrowRoundBack} from "react-icons/io";
 
 const GenerateSummary = () => {
     return (
         <div>
             <div style={{ marginTop: "30px", marginLeft: "50px", color: "#607d8b" }}>
-                <Link to='/'>Go Back</Link>
+                <Link to='/' className='navLink'><IoIosArrowRoundBack /> Go Back</Link>
             </div>
             <div className="text-center">
                 <h2 style={{ marginTop: "10px", marginBottom: "20px", color: "#607d8b" }}>Generate contract summary here</h2>

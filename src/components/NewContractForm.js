@@ -1,10 +1,9 @@
 import React from "react";
 import { Button, Form, FormGroup, Input, Label } from "reactstrap";
-
 import axios from "axios";
-
 import { API_URL } from "../constants";
 
+// This file is from the tutorial, and I'm just using it as a reference for how new objects are created
 class NewContractForm extends React.Component {
   state = {
     pk: 0,

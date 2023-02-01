@@ -2,6 +2,8 @@ import React, { Component, Fragment } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 import NewContractForm from "./NewContractForm";
 
+// This file is from the tutorial, and I'm just using it as a reference for how new objects are created
+
 class NewContractModal extends Component {
   state = {
     modal: false
