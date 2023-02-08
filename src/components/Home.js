@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "./Button";
 import {IoIosFingerPrint} from "react-icons/io";
-import {IoIosClipboard} from "react-icons/io";
+//import {IoIosClipboard} from "react-icons/io";
 import { Link } from 'react-router-dom';
-import { API_URL } from "../constants";
+//import { API_URL } from "../constants";
 
 const Home = () => {
   return (

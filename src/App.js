@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import GenerateSummary from './components/GenerateSummary';
 import PresentSummary from './components/PresentSummary';
+import Dropzone from './components/Dropzone';
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
         />
         
         {/* Add generate summary component */}
-        <Route path='/GenerateSummary' element = {<GenerateSummary />} />
+        <Route path='/GenerateSummary' exact element = {<GenerateSummary />} />
 
         {/* Add present summary component */}
         <Route path='/PresentSummary' element = {<PresentSummary />} />

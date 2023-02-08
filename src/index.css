@@ -27,7 +27,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   margin-left: 0px;
-  box-shadow: 0 20px 20px -25px rgb(45, 44, 44);
+  box-shadow: 0 20px 20px -20px rgb(45, 44, 44);
 }
 
 .navLink {
@@ -39,10 +39,19 @@ body {
   color: #607d8b;
 }
 
+.dropzoneStyle {
+  text-align: center;
+  padding: 20px;
+  border: 3px #607d8b dashed;
+  border-radius: 25px;
+  width: 60%;
+  margin: auto;
+  background-color: lightgray;
+}
+
 .btn {
   display: inline-block;
-  background: #000;
-  color: #fff;
+  background-color: #abd4ff;
   border: none;
   padding: 10px 20px;
   margin: 5px;
