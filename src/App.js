@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Home from './components/Home';
 import GenerateSummary from './components/GenerateSummary';
 import PresentSummary from './components/PresentSummary';
-import Dropzone from './components/Dropzone';
 
 const App = () => {
   return (
@@ -32,3 +31,5 @@ const App = () => {
 }
 
 export default App;
+
+//fix envelope issue: export NODE_OPTIONS=--openssl-legacy-provider

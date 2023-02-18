@@ -13,7 +13,7 @@ const GenerateSummary = () => {
             <div className="text-center">
                 <h2 style={{ marginTop: "10px", marginBottom: "20px", color: "#607d8b" }}>Generate contract summary here</h2>
                 <br />
-                <p><IoIosFingerPrint className="textColor" /> Upload a .doc or .pdf file below. Rest assured, contractscan.io 
+                <p><IoIosFingerPrint className="textColor" /> Upload a file below. Rest assured, contractscan.io 
                     doesn't store any information uploaded to our site.</p>
                 
                 <div>

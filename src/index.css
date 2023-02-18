@@ -39,6 +39,10 @@ body {
   color: #607d8b;
 }
 
+ul {
+  list-style: none;
+}
+
 .dropzoneStyle {
   text-align: center;
   padding: 20px;
